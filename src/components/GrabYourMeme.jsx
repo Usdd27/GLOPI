@@ -1,6 +1,6 @@
 import glopiBuy from "../assets/buy/GLOPI_buy.png";
 
-export default function Buy() {
+export default function GrabYourMeme() {
   return (
     <div
       id="grab-your-meme"
@@ -72,3 +72,4 @@ export default function Buy() {
     </div>
   );
 }
+

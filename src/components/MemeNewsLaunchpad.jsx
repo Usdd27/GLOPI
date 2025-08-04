@@ -1,4 +1,4 @@
-export default function AirdropGame() {
+export default function MemeNewsLaunchpad() {
   return (
     <div
       id="meme-news-launchpad"

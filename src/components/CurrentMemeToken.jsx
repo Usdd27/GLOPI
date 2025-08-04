@@ -1,4 +1,4 @@
-export default function Tokenomics() {
+export default function CurrentMemeToken() {
   return (
     <div
       id="current-meme-token"
