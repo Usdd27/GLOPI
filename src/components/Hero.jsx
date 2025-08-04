@@ -42,7 +42,7 @@ export default function Hero() {
           href="#tokenomics"
           className="px-5 py-2 bg-white text-black rounded-full shadow hover:bg-gray-200 transition whitespace-nowrap"
         >
-          Tokenomics
+          Current Meme Token
         </a>
         <a
           href="#airdrop"
@@ -64,9 +64,9 @@ export default function Hero() {
         </a>
         <a
           href="#buy"
-          className="px-5 py-2 bg-orange-500 text-white rounded-full shadow hover:bg-orange-600 transition whitespace-nowrap"
+          className="px-5 py-2 bg-orange-500 text-white rounded-full shadow hover:bg-orange-600 transition whitespace-nowrap animate-pulse"
         >
-          Buy $GLOPI
+          Grab Your Meme
         </a>
         <a
           href="#team"

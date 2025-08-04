@@ -7,11 +7,12 @@ export default function Buy() {
       className="relative min-h-screen flex flex-col items-center justify-start text-white bg-[#2b0a3d] pt-20 px-6"
     >
       {/* Заголовок */}
-      <h2 className="text-5xl font-bold mb-6">Buy $GLOPI</h2>
+      <h2 className="text-5xl font-bold mb-6">Grab Your Meme</h2>
 
-      {/* Описание сохранено */}
-      <p className="text-center max-w-2xl text-xl mb-12">
-        Get your $GLOPI tokens now and join the fun!
+      {/* Новое мемное описание */}
+      <p className="text-center max-w-2xl text-xl mb-12 leading-relaxed">
+        These links take you straight to the freshest $GLOPI memes on the market.  
+        Collect them, flex them, and join the ultimate meme carnival!
       </p>
 
       {/* Карточки со ссылками */}
