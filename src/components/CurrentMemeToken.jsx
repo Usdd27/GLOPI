@@ -1,7 +1,7 @@
 export default function Tokenomics() {
   return (
     <div
-      id="tokenomics"
+      id="current-meme-token"
       className="relative min-h-screen flex flex-col items-center justify-start text-white bg-[#2b0a3d] pt-12 px-4 sm:px-6"
     >
       {/* Заголовок */}

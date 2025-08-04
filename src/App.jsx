@@ -1,9 +1,9 @@
 import Hero from './components/Hero';
-import Tokenomics from './components/Tokenomics';
-import AirdropGame from './components/AirdropGame';
-import Roadmap from './components/Roadmap'; // ✅ новое имя вместо Security
-import Socials from './components/Socials'; 
-import Buy from './components/Buy';
+import Tokenomics from './components/CurrentMemeToken';
+import AirdropGame from './components/MemeNewsLaunchpad';
+import Roadmap from './components/TopMemeTokens';
+import Socials from './components/Socials';
+import Buy from './components/GrabYourMeme';
 import Team from './components/Team';
 import Footer from './components/Footer';
 
@@ -13,7 +13,7 @@ export default function App() {
       <Hero />
       <Tokenomics />
       <AirdropGame />
-      <Roadmap />    {/* ✅ новый компонент */}
+      <Roadmap /> {/* ✅ компонент с топ мем-токенами */}
       <Socials />
       <Buy />
       <Team />
@@ -21,4 +21,3 @@ export default function App() {
     </>
   );
 }
-

@@ -3,7 +3,7 @@ import glopiBuy from "../assets/buy/GLOPI_buy.png";
 export default function Buy() {
   return (
     <div
-      id="buy"
+      id="grab-your-meme"
       className="relative min-h-screen flex flex-col items-center justify-start text-white bg-[#2b0a3d] pt-20 px-6"
     >
       {/* Заголовок */}
@@ -11,53 +11,60 @@ export default function Buy() {
 
       {/* Новое мемное описание */}
       <p className="text-center max-w-2xl text-xl mb-12 leading-relaxed">
-        These links take you straight to the freshest $GLOPI memes on the market.  
-        Collect them, flex them, and join the ultimate meme carnival!
+        Dive into the world of <span className="text-purple-400 font-bold">$GLOPI</span> memes!  
+        Collect the freshest drops, flex your tokens, and join the ultimate meme parade. 🚀🐸
       </p>
 
       {/* Карточки со ссылками */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-5xl w-full">
-        {/* 1 */}
+        
+        {/* 1 — LetsBonk */}
         <a
           href="https://letsbonk.fun/token/DCZDxXn1PKyHZMekiPzxnQQujg6cD586giSbzVuEbonk"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col items-center bg-purple-500 bg-opacity-20 p-6 rounded-2xl hover:scale-105 hover:bg-opacity-30 transition-transform duration-300"
+          className="flex flex-col items-center bg-purple-500 bg-opacity-20 p-6 rounded-2xl 
+                     hover:scale-105 hover:bg-opacity-30 transition-transform duration-300"
         >
           <img
             src={glopiBuy}
             alt="LetsBonk"
-            className="w-24 h-24 mb-4 rounded-xl object-cover border border-purple-500"
+            className="w-24 h-24 mb-4 rounded-xl object-cover border border-purple-500 
+                       transition duration-300 hover:shadow-lg hover:shadow-purple-500/50"
           />
           <span className="text-lg font-semibold">LetsBonk</span>
         </a>
 
-        {/* 2 */}
+        {/* 2 — Axiom Trade */}
         <a
           href="https://axiom.trade/meme/AE4XFWtn15yoEf6kL1NyAGwqGYnXjVK4UGLMybkmNSTM"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col items-center bg-purple-500 bg-opacity-20 p-6 rounded-2xl hover:scale-105 hover:bg-opacity-30 transition-transform duration-300"
+          className="flex flex-col items-center bg-purple-500 bg-opacity-20 p-6 rounded-2xl 
+                     hover:scale-105 hover:bg-opacity-30 transition-transform duration-300"
         >
           <img
             src={glopiBuy}
             alt="Axiom"
-            className="w-24 h-24 mb-4 rounded-xl object-cover border border-purple-500"
+            className="w-24 h-24 mb-4 rounded-xl object-cover border border-purple-500 
+                       transition duration-300 hover:shadow-lg hover:shadow-purple-500/50"
           />
           <span className="text-lg font-semibold">Axiom Trade</span>
         </a>
 
-        {/* 3 */}
+        {/* 3 — DexScreener */}
         <a
           href="https://dexscreener.com/solana/AE4XFWtn15yoEf6kL1NyAGwqGYnXjVK4UGLMybkmNSTM"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col items-center bg-purple-500 bg-opacity-20 p-6 rounded-2xl hover:scale-105 hover:bg-opacity-30 transition-transform duration-300"
+          className="flex flex-col items-center bg-purple-500 bg-opacity-20 p-6 rounded-2xl 
+                     hover:scale-105 hover:bg-opacity-30 transition-transform duration-300"
         >
           <img
             src={glopiBuy}
             alt="DexScreener"
-            className="w-24 h-24 mb-4 rounded-xl object-cover border border-purple-500"
+            className="w-24 h-24 mb-4 rounded-xl object-cover border border-purple-500 
+                       transition duration-300 hover:shadow-lg hover:shadow-purple-500/50"
           />
           <span className="text-lg font-semibold">DexScreener</span>
         </a>

@@ -33,28 +33,22 @@ export default function Hero() {
       {/* Навигационное меню */}
       <div className="mt-6 flex flex-wrap justify-center gap-3 max-w-5xl">
         <a
-          href="#home"
-          className="px-5 py-2 bg-white text-black rounded-full shadow hover:bg-gray-200 transition whitespace-nowrap"
-        >
-          GLOPI-Home
-        </a>
-        <a
-          href="#tokenomics"
+          href="#current-meme-token"
           className="px-5 py-2 bg-white text-black rounded-full shadow hover:bg-gray-200 transition whitespace-nowrap"
         >
           Current Meme Token
         </a>
         <a
-          href="#airdrop"
+          href="#meme-news-launchpad"
           className="px-5 py-2 bg-white text-black rounded-full shadow hover:bg-gray-200 transition whitespace-nowrap"
         >
-          Airdrop Game
+          Meme News Launchpad
         </a>
         <a
-          href="#roadmap"
+          href="#top-meme-tokens"
           className="px-5 py-2 bg-white text-black rounded-full shadow hover:bg-gray-200 transition whitespace-nowrap"
         >
-          Roadmap
+          Top Meme Tokens
         </a>
         <a
           href="#socials"
@@ -63,7 +57,7 @@ export default function Hero() {
           Socials
         </a>
         <a
-          href="#buy"
+          href="#grab-your-meme"
           className="px-5 py-2 bg-orange-500 text-white rounded-full shadow hover:bg-orange-600 transition whitespace-nowrap animate-pulse"
         >
           Grab Your Meme
