@@ -55,3 +55,27 @@ body {
   animation: flip 1s linear;
 }
 
+/* 🔹 Анимация появления для текста под меню */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+/* 🔹 Неоновое свечение для слогана */
+.neon-text {
+  text-shadow:
+    0 0 5px #ff7b00,
+    0 0 10px #ff7b00,
+    0 0 20px #ff7b00,
+    0 0 40px #ff7b00;
+}

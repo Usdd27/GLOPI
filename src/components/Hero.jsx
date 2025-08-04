@@ -75,6 +75,12 @@ export default function Hero() {
           Team
         </a>
       </div>
+
+      {/* Мемный слоган */}
+      <p className="mt-8 text-2xl text-white font-semibold opacity-0 animate-fadeIn">
+        GLOPI — Meme Maker & Token Spawner. <br />
+        Turning every joke into a crypto adventure!
+      </p>
     </div>
   );
 }
