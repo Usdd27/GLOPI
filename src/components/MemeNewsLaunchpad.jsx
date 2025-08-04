@@ -21,11 +21,27 @@ export default function MemeNewsLaunchpad() {
         <h3 className="text-xl font-bold mb-2 text-purple-300">
           Current News Highlight
         </h3>
-        <p className="text-sm sm:text-base text-gray-200">
-          Here will be the latest news that inspires our next meme token.  
-          (This is a placeholder — soon every hot topic will become a meme!)
+        <p className="text-sm sm:text-base text-gray-200 mb-4 leading-relaxed">
+          On August 5, the world celebrates Traffic Light Day to honor the installation
+          of the first electric traffic light in Cleveland, USA, in 1914.  
+          Back then, it had only two colors — red and green — and was operated manually
+          from a small booth.
+          <br /><br />
+          This day now symbolizes that <span className="text-red-400 font-bold">red means HODL</span>, 
+          and <span className="text-green-400 font-bold">green means TO THE MOON! 🚀</span>
         </p>
+
+        {/* Кликабельная ссылка */}
+        <a
+          href="https://www.history.com/this-day-in-history/august-5/first-electric-traffic-signal-installed"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-2 text-purple-300 underline hover:text-purple-400 transition"
+        >
+          Read Full Story →
+        </a>
       </div>
     </div>
   );
 }
+

@@ -11,8 +11,8 @@ export default function GrabYourMeme() {
 
       {/* Новое мемное описание */}
       <p className="text-center max-w-2xl text-xl mb-12 leading-relaxed">
-        Dive into the world of <span className="text-purple-400 font-bold">$GLOPI</span> memes!  
-        Collect the freshest drops, flex your tokens, and join the ultimate meme parade. 🚀🐸
+        Here are the official links to grab your <span className="text-purple-400 font-bold">$GLIGHT</span> tokens.  
+        Choose your platform and join the ride! 🚀
       </p>
 
       {/* Карточки со ссылками */}
