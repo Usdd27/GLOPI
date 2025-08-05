@@ -20,7 +20,7 @@ export default function GrabYourMeme() {
         
         {/* 1 — LetsBonk */}
         <a
-          href="https://letsbonk.fun/token/DCZDxXn1PKyHZMekiPzxnQQujg6cD586giSbzVuEbonk"
+          href="https://letsbonk.fun/token/DGZDYHMDAtDGhDFWZRWCN99Jwuz3irbR4w1QLcoRbonk"
           target="_blank"
           rel="noopener noreferrer"
           className="flex flex-col items-center bg-purple-500 bg-opacity-20 p-6 rounded-2xl 
@@ -37,7 +37,7 @@ export default function GrabYourMeme() {
 
         {/* 2 — Axiom Trade */}
         <a
-          href="https://axiom.trade/meme/AE4XFWtn15yoEf6kL1NyAGwqGYnXjVK4UGLMybkmNSTM"
+          href="https://axiom.trade/meme/6ivUftzxu56CZgHuGQxabqVqfyd8S1QsJdDyh2DFpaz8"
           target="_blank"
           rel="noopener noreferrer"
           className="flex flex-col items-center bg-purple-500 bg-opacity-20 p-6 rounded-2xl 
@@ -54,7 +54,7 @@ export default function GrabYourMeme() {
 
         {/* 3 — DexScreener */}
         <a
-          href="https://dexscreener.com/solana/AE4XFWtn15yoEf6kL1NyAGwqGYnXjVK4UGLMybkmNSTM"
+          href="https://dexscreener.com/solana/6ivuftzxu56czghugqxabqvqfyd8s1qsjddyh2dfpaz8"
           target="_blank"
           rel="noopener noreferrer"
           className="flex flex-col items-center bg-purple-500 bg-opacity-20 p-6 rounded-2xl 
