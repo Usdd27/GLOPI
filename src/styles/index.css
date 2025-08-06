@@ -12,7 +12,7 @@ html {
 body {
   background-color: #2b0a3d; /* Фиолетовый фон */
   font-family: 'Inter', sans-serif;
-}Ы
+}
 
 /* Кастомные классы для новых шрифтов */
 .font-dancing {
@@ -55,7 +55,7 @@ body {
   animation: flip 1s linear;
 }
 
-/* 🔹 Анимация появления для текста под меню */
+/* 🔹 Анимация появления текста под меню */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -78,4 +78,19 @@ body {
     0 0 10px #ff7b00,
     0 0 20px #ff7b00,
     0 0 40px #ff7b00;
+}
+
+/* 🔹 Анимация тряски текста (shake) */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-3px); }
+  40% { transform: translateX(3px); }
+  60% { transform: translateX(-3px); }
+  80% { transform: translateX(3px); }
+}
+
+/* 🔹 Включение тряски при наведении */
+.shake-hover:hover .shake-text {
+  display: inline-block;
+  animation: shake 0.5s ease-in-out infinite;
 }
