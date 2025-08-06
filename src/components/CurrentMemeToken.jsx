@@ -1,4 +1,4 @@
-import glightLogo from '../assets/CurrentMeme/GLIGHT.png';
+import glightLogo from '../assets/CurrentMeme/GAXE.png';
 
 export default function CurrentMemeToken() {
   return (
@@ -10,13 +10,6 @@ export default function CurrentMemeToken() {
       <h2 className="text-3xl sm:text-5xl font-bold mb-6 sm:mb-8 text-center">
         Current Meme Token
       </h2>
-
-      {/* Описание */}
-      <p className="text-center max-w-2xl text-lg sm:text-xl mb-10 leading-relaxed">
-        GLIGHT turns crypto into a meme highway.  
-        Green light for moonshots, red light for diamond hands.  
-        Hold tight and enjoy the ride!
-      </p>
 
       {/* Блок с токеном */}
       <div className="bg-purple-500 bg-opacity-20 p-6 sm:p-8 rounded-2xl border border-purple-500 flex flex-col items-center max-w-sm w-full text-center hover:bg-opacity-30 transition duration-300">
@@ -31,13 +24,12 @@ export default function CurrentMemeToken() {
         </div>
 
         {/* Название токена */}
-        <h3 className="text-xl sm:text-2xl font-bold mb-2">GLIGHT</h3>
+        <h3 className="text-xl sm:text-2xl font-bold mb-2">GAXE</h3>
 
         {/* Описание токена */}
         <p className="text-sm sm:text-base leading-relaxed">
-          GLIGHT turns crypto into a meme highway.  
-          Green light for moonshots, red light for diamond hands.  
-          Hold tight and enjoy the ride! 🚀💎
+          GAXE is a fierce meme token with a fiery Dota 2 warrior,  
+          symbolizing strength, battle, and unstoppable energy. 🔥⚔️
         </p>
       </div>
     </div>

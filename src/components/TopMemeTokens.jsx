@@ -48,8 +48,8 @@ export default function TopMemeTokens() {
 
       {/* Описание */}
       <p className="text-center max-w-2xl text-lg sm:text-xl mb-12 leading-relaxed">
-        Here are the meme tokens that hit the biggest peaks.  
-        Watch the hype grow and check their contracts to join the wave! 🚀
+        Meet the meta meme heroes — top picks with the highest winrate.  
+        Track their rise, check their contracts, and join the hype! ⚡
       </p>
 
       {/* Таблица */}

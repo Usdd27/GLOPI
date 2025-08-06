@@ -39,10 +39,10 @@ export default function Hero() {
           Current Meme Token
         </a>
         <a
-          href="#meme-news-launchpad"
+          href="#meme-hero-factory"
           className="px-5 py-2 bg-white text-black rounded-full shadow hover:bg-gray-200 transition whitespace-nowrap"
         >
-          Meme News Launchpad
+          Meme Hero Factory
         </a>
         <a
           href="#top-meme-tokens"
@@ -67,7 +67,7 @@ export default function Hero() {
       {/* Мемный слоган */}
       <p className="mt-8 text-2xl text-white font-semibold opacity-0 animate-fadeIn">
         GLOPI — Meme Maker & Token Spawner. <br />
-        Turning every joke into a crypto adventure!
+        Forging legendary meme heroes inspired by Dota!
       </p>
     </div>
   );
