@@ -57,12 +57,6 @@ export default function Hero() {
           Socials
         </a>
         <a
-          href="#grab-your-meme"
-          className="px-5 py-2 bg-orange-500 text-white rounded-full shadow hover:bg-orange-600 transition whitespace-nowrap animate-pulse"
-        >
-          Grab Your Meme
-        </a>
-        <a
           href="#team"
           className="px-5 py-2 bg-white text-black rounded-full shadow hover:bg-gray-200 transition whitespace-nowrap"
         >
