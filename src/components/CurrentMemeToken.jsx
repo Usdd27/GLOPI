@@ -1,4 +1,4 @@
-import glightLogo from '../assets/CurrentMeme/GAXE.png';
+import gursaLogo from '../assets/CurrentMeme/GURSA.png';
 
 export default function CurrentMemeToken() {
   return (
@@ -13,22 +13,22 @@ export default function CurrentMemeToken() {
 
       {/* Блок с токеном */}
       <div className="shake-hover bg-purple-500 bg-opacity-20 p-6 sm:p-8 rounded-2xl border border-purple-500 flex flex-col items-center max-w-sm w-full text-center hover:bg-opacity-30 transition duration-300">
-        
+
         {/* Логотип токена */}
         <div className="w-32 h-32 sm:w-40 sm:h-40 mb-4 rounded-full border-2 border-purple-400 overflow-hidden flex items-center justify-center">
           <img
-            src={glightLogo}
-            alt="GAXE Logo"
+            src={gursaLogo}
+            alt="GURSA Logo"
             className="w-full h-full object-cover"
           />
         </div>
 
         {/* Название токена */}
-        <h3 className="text-xl sm:text-2xl font-bold mb-2">GAXE</h3>
+        <h3 className="text-xl sm:text-2xl font-bold mb-2">GURSA</h3>
 
-        {/* Фраза с тряской при наведении */}
-        <p className="text-sm sm:text-base leading-relaxed shake-text">
-          “Come and get it!”
+        {/* Фраза без тряски */}
+        <p className="text-sm sm:text-base leading-relaxed">
+          “The taste of victory!”
         </p>
       </div>
     </div>

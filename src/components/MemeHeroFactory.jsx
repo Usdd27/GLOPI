@@ -1,8 +1,8 @@
 import glopiLogo from '../assets/GLOPI.png';
 import gaxeLogo from '../assets/CurrentMeme/GAXE.png';
+import gursaLogo from '../assets/CurrentMeme/GURSA.png';
 
 export default function MemeHeroFactory() {
-  // 4 блока: 31+31+31+32
   const blocks = [31, 31, 31, 32];
   const blockTitles = [
     { name: 'Strength', icon: '✊', color: 'text-red-400' },
@@ -15,9 +15,11 @@ export default function MemeHeroFactory() {
   const heroes = blocks.map((count, blockIndex) =>
     Array.from({ length: count }, (_, i) => {
       total++;
-      if (total === 2) return { name: 'GAXE', logo: gaxeLogo };
-      if (blockIndex === 3 && i === count - 1)
-        return { name: 'GLOPI', logo: glopiLogo };
+
+      if (total === 2) return { name: 'GAXE', logo: gaxeLogo }; // Block 1
+      if (blockIndex === 1 && i === 28) return { name: 'GURSA', logo: gursaLogo }; // Block 2, index 28 (6-я строка, 4 колонка)
+      if (blockIndex === 3 && i === count - 1) return { name: 'GLOPI', logo: glopiLogo }; // Последний в 4 блоке
+
       return { name: 'Coming Soon', logo: null };
     })
   );
@@ -35,8 +37,8 @@ export default function MemeHeroFactory() {
       <div className="flex justify-center gap-12">
         {heroes.map((block, blockIndex) => (
           <div key={blockIndex} className="flex flex-col items-start">
-            
-            {/* Заголовок блока с иконкой */}
+
+            {/* Заголовок блока */}
             <div className="flex items-center gap-2 mb-2 ml-2">
               <span className={`text-xl ${blockTitles[blockIndex].color}`}>
                 {blockTitles[blockIndex].icon}
