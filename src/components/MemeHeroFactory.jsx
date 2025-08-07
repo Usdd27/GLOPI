@@ -1,6 +1,7 @@
 import glopiLogo from '../assets/GLOPI.png';
 import gaxeLogo from '../assets/CurrentMeme/GAXE.png';
 import gursaLogo from '../assets/CurrentMeme/GURSA.png';
+import ginvokerLogo from '../assets/CurrentMeme/GINVOKER.png'; // 👈 импорт
 
 export default function MemeHeroFactory() {
   const blocks = [31, 31, 31, 32];
@@ -17,8 +18,9 @@ export default function MemeHeroFactory() {
       total++;
 
       if (total === 2) return { name: 'GAXE', logo: gaxeLogo }; // Block 1
-      if (blockIndex === 1 && i === 28) return { name: 'GURSA', logo: gursaLogo }; // Block 2, index 28 (6-я строка, 4 колонка)
-      if (blockIndex === 3 && i === count - 1) return { name: 'GLOPI', logo: glopiLogo }; // Последний в 4 блоке
+      if (blockIndex === 1 && i === 28) return { name: 'GURSA', logo: gursaLogo }; // Block 2
+      if (blockIndex === 2 && i === 12) return { name: 'GINVOKER', logo: ginvokerLogo }; // ✅ Block 3, index 12
+      if (blockIndex === 3 && i === count - 1) return { name: 'GLOPI', logo: glopiLogo }; // Last in Block 4
 
       return { name: 'Coming Soon', logo: null };
     })

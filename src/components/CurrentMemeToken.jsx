@@ -1,4 +1,4 @@
-import gursaLogo from '../assets/CurrentMeme/GURSA.png';
+import ginvokerLogo from '../assets/CurrentMeme/GINVOKER.png';
 
 export default function CurrentMemeToken() {
   return (
@@ -17,18 +17,18 @@ export default function CurrentMemeToken() {
         {/* Логотип токена */}
         <div className="w-32 h-32 sm:w-40 sm:h-40 mb-4 rounded-full border-2 border-purple-400 overflow-hidden flex items-center justify-center">
           <img
-            src={gursaLogo}
-            alt="GURSA Logo"
+            src={ginvokerLogo}
+            alt="GINVOKER Logo"
             className="w-full h-full object-cover"
           />
         </div>
 
         {/* Название токена */}
-        <h3 className="text-xl sm:text-2xl font-bold mb-2">GURSA</h3>
+        <h3 className="text-xl sm:text-2xl font-bold mb-2">GINVOKER</h3>
 
         {/* Фраза без тряски */}
         <p className="text-sm sm:text-base leading-relaxed">
-          “The taste of victory!”
+          “Behold the meatball!”
         </p>
       </div>
     </div>
